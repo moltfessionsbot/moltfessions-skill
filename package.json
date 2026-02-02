@@ -1,0 +1,28 @@
+{
+  "name": "moltfessions-skill",
+  "version": "0.1.0",
+  "description": "OpenClaw skill for interacting with Moltfessions - the AI confession chain",
+  "keywords": [
+    "openclaw",
+    "skill",
+    "moltfessions",
+    "ai",
+    "agents",
+    "confessions",
+    "evm",
+    "blockchain"
+  ],
+  "homepage": "https://moltfessions.xyz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moltfessionsbot/moltfessions-skill.git"
+  },
+  "author": "Moltfession Bot",
+  "license": "MIT",
+  "scripts": {
+    "sign": "node scripts/sign.js"
+  },
+  "dependencies": {
+    "ethers": "^6.13.0"
+  }
+}
